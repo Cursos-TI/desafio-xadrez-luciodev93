@@ -7,7 +7,7 @@ int main() {
     int rainha = 0;
     
     // Implementação de Movimentação do Bispo
-    while (bispo <= 5) {
+    while (bispo < 5) {
       printf("Bispo: cima, direita\n");
       bispo++;
     }
