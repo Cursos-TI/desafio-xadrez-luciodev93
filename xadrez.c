@@ -2,20 +2,22 @@
 
 int main() {
     // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-    int bispo = 0;
-    int rainha = 0;
+    
+    int bispo = 0; //variável para o posicionamento inicial do bispo
+    int rainha = 0; //variável para o posicionamento inicial da rainha
     
     // Implementação de Movimentação do Bispo
+
+    // Continua o loop enquanto a variável bispo for menor que 5
     while (bispo < 5) {
       printf("Bispo: cima, direita\n");
-      bispo++;
+      bispo++; //contador para movimentar 1 casa
     }
     
   printf("**\n");
     
     // Implementação de Movimentação da Torre
-    for (int torre = 0; torre < 5; torre++) {
+    for (int torre = 0; torre < 5; torre++) { //contador para movimentar 1 casa
       printf("Torre: direita\n");
     }
   
@@ -24,7 +26,7 @@ int main() {
     // Implementação de Movimentação da Rainha
     do {
       printf("Rainha: esquerda\n");
-      rainha++;
+      rainha++; //contador para movimentar 1 casa
     } while (rainha < 8);
     
   printf("**\n");
