@@ -24,6 +24,9 @@ int main() {
   printf("**\n");
 
     // Implementação de Movimentação da Rainha
+
+    // do-while garante que o bloco de código seja executado pelo menos uma vez antes da condição ser avaliada.
+    
     do {
       printf("Rainha: esquerda\n");
       rainha++; //contador para movimentar 1 casa
